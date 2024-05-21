@@ -6,7 +6,7 @@ TextAlive App APIを使った、歌詞の単語が発声しているように宙
 
 実行するには、TextAlive APIのトークンが必要です。
 
- It uses the TextAlive App API to animate the outlines of the text of the lyrics.
+This is sample data that uses the TextAlive App API to make the words of the lyrics fly in the air as if they are being uttered.
 
  A TextAlive API token is required to run it.
 
