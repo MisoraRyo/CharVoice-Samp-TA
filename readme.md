@@ -2,7 +2,7 @@
 
 <img src="./static/image.png" width="100%"/>
 
-TextAlive App APIを使った、歌詞が発声しているように見えるサンプルデータです。
+TextAlive App APIを使った、歌詞の単語が発声しているように宙に舞うサンプルデータです。
 
 実行するには、TextAlive APIのトークンが必要です。
 
