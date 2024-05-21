@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Ryo Misora">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<title>Voice Sample -TextaAlive-</title>
+<meta name="description" content="TextAliveで、キャラクターが単語を発声しているように表示するサンプルファイルです。">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+<style>
+footer{
+position: absolute;
+bottom: 18px;
+left: 20px;
+}
+</style>
+</head>
+<body>
+    <!--シークバー-->  
+    <div id="nav-bar-wrap">
+        <div id="nav-bar"></div>
+    </div>
+    <div id="gpu-text"></div>
+    <!--再生ボタン類-->
+    <div id="btn-area">
+        <button id="Play-Btn">PLAY</button>
+        <button id="Stop-Btn">STOP</button>
+    </div>
+    <!--楽曲を選択する-->
+    <div class="select_box">
+        <p class="select_box_text">Music Select</p>
+        <select id="select" name="select1">
+            <option value="0" selected>SUPERHERO / めろくる</option>
+            <option value="1">いつか君と話したミライは / タケノコ少年</option>
+            <option value="2">フューチャーノーツ / shikisai</option>
+            <option value="3">未来交響曲 / ヤマギシコージ</option>
+            <option value="4">リアリティ / 歩く人</option>
+            <option value="5">The Marks / 2ouDNS</option>
+        </select>
+        <!-- 2024年 プロコン
+        <select id="select" name="select1">
+          <option value="0" selected>生きること / nogumi feat. 初音ミク</option>
+          <option value="1">king妃jack躍 / 宮守文学 feat. 初音ミク</option>
+          <option value="2">唱明者 / すこやか大聖堂 feat. KAITO</option>
+          <option value="3">ネオンライトの海を往く / Ponchi♪ feat. 初音ミク</option>
+          <option value="4">ミュウテイション / Rin（Kuroneko Lounge） feat. 初音ミク</option>
+          <option value="5">Entrust via 39 / ikomai feat. 初音ミク</option>
+        </select> -->
+    </div>
+    <!--グラフィックス-->
+    <canvas id="MyCanvas"></canvas>
+    <!--creative commons-->
+    <footer>
+        <p><small>Hatsune Miku / Crypton Future Media inc. <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.ja">Creative Commons Attribution-NonCommercial 3.0 Unported License</a> の下に提供されています。</small></p>
+        <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.ja">
+          <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/80x15.png" />
+        </a>
+    </footer>
+</body>
+</html>
