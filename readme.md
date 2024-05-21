@@ -40,3 +40,5 @@ Three.js
 GSAP
 
 TextAlive api
+
+Hatsune Miku / Crypton Future Media inc. / CC BY-NC
