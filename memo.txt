@@ -1,0 +1,4 @@
+
+2023.11.28. #バグ解決 
+ => npm install memfs
+https://stackoverflow.com/questions/74240482/cannot-set-property-closed-of-readable-which-has-only-a-getter
