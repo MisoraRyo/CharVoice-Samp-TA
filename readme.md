@@ -12,7 +12,7 @@ TextAlive App APIを使った、歌詞の文字の輪郭線がアニメーショ
 
 ## Demo
 
-[https://misora.main.jp/ea4azmyb/outline/](https://misora.main.jp/ea4azmyb/voice/)
+https://misora.main.jp/ea4azmyb/voice/
 
 ## Getting Started
 Download and install Node.js on your computer (https://nodejs.org/en/download/).
