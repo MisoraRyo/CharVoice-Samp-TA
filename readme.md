@@ -2,7 +2,7 @@
 
 <img src="./static/image.png" width="100%"/>
 
-TextAlive App APIを使った、歌詞の文字の輪郭線がアニメーションするものです。
+TextAlive App APIを使った、歌詞が発声しているように見えるサンプルデータです。
 
 実行するには、TextAlive APIのトークンが必要です。
 
