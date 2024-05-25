@@ -366,7 +366,7 @@ const material = new THREE.MeshBasicMaterial( {
   transparent:true,
 } );
 const plane = new THREE.Mesh( geometry, material );
-plane.position.set(4,-70,-1);
+plane.position.set(4,-70,-4);
 scene.add( plane );
 
 /////////////////////////////////////////////////////////////////////////
