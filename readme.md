@@ -41,4 +41,4 @@ GSAP
 
 TextAlive api
 
-Hatsune Miku / Crypton Future Media inc. / CC BY-NC
+<strong>Hatsune Miku / Crypton Future Media inc. / CC BY-NC<strong>
