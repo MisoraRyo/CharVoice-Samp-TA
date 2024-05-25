@@ -489,6 +489,8 @@ function renderLoop() {
     const delta = clock.getDelta();//animation programs
     const elapsedTime = clock.getElapsedTime();
     //controls.update() // update orbit control
+　　
+　　camera.lookAt(0,20,0)
 
     ////////////////////////////////////////
     // TextAlive 
